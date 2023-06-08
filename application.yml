@@ -4,6 +4,6 @@ eureka:
      register-with-eureka: true
      fetch-registry: true
      service-url:
-       defaultZone: http://registryimage:8761/eureka/
+       defaultZone: http://registryProject:8761/eureka/
    instance:
-     hostname: registryimage
+     hostname: registryProject
