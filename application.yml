@@ -7,5 +7,5 @@ eureka:
        defaultZone: http://registryProject:8761/eureka/
    instance:
      prefer-ip-address: true
-     hostname: cloudconfig
+     hostname: registryProject
      non-secure-port: 8085
