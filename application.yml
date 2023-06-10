@@ -4,8 +4,8 @@ eureka:
      register-with-eureka: true
      fetch-registry: true
      service-url:
-       defaultZone: http://registryProject:8761/eureka/
+       defaultZone: http://172.19.0.2/16:8761/eureka/
    instance:
      prefer-ip-address: true
-     hostname: registryProject
+     hostname: 172.19.0.2/16
      non-secure-port: 8085
