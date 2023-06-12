@@ -4,8 +4,6 @@ eureka:
      register-with-eureka: true
      fetch-registry: true
      service-url:
-       defaultZone: http://172.19.0.2:8761/eureka/
+       defaultZone: http://eureka-server:8761/eureka/
    instance:
-     prefer-ip-address: true
-     hostname: 172.19.0.2
-     non-secure-port: 8085
+     hostname: eureka-server
